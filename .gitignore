@@ -1,0 +1,21 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot-specific
+.import/
+export.cfg
+export_presets.cfg
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+*.swp
+*.swo
+
+# Optional: if you use addons and want to keep them out
+# addons/some_big_plugin/
+
