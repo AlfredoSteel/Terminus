@@ -1,8 +1,20 @@
 extends Node
 
 var select = null
-var player_camera = null
-	
+var player_camera : player_camera = null
+
+var target_bot = null
+var manual_override = true
+
+func _process(delta : float):
+	if Input.is_action_just_pressed("manual_control"):
+		manual_override = not manual_override
+
+func gui_target(new_bot : bot):
+	if target_bot != null:
+		target_bot.player_selected = false
+	target_bot = new_bot
+
 func rand_curve():
 	return pow(randf(), 6)
 

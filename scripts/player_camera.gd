@@ -1,4 +1,5 @@
 extends Node3D
+class_name player_camera
 
 var zoom_step_size : float
 @onready var zoom_target : float = $Camera3D.position.z
@@ -15,12 +16,17 @@ var zoom_min = 2 # change this so it varies with the size of the target.
 var zoom_b_distance = 20 #width of intended zoom field
 var zoom_b_strength = 4
 
+var pitch_min = 3 * PI / 2
+var pitch_max = 2 * PI
+var pitch_buffer = PI / 32
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	origin.player_camera = self
 	var t = (position.z-zoom_min) * 1.0/zoom_b_distance
 	zoom_step_size = 0.01 * (1-t) + zoom_b_strength * t
+	# Default to top view
+	rotation.x = (pitch_min + pitch_max) / 2
 
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("zoom out"):
@@ -42,8 +48,8 @@ func _process(delta: float) -> void:
 		mouse_delta = mouse_2 - mouse_1
 		var scale_to_screen_size = (1920.0/get_viewport().size.x + 1080.0/get_viewport().size.y)/2.0
 		#rotation.x = initial_rotation.x + -1.0 * scale_to_screen_size * rotation_strength * mouse_delta.y/(2*PI)
-		var overtilt_blocker = PI/32
-		rotation.x = clampf(initial_rotation.x + -1.0 * scale_to_screen_size * rotation_strength * mouse_delta.y/(2*PI), -PI + overtilt_blocker, 0 - overtilt_blocker)
+		rotation.x = clampf(initial_rotation.x + -1.0 * scale_to_screen_size * rotation_strength * mouse_delta.y / (2 * PI), pitch_min + pitch_buffer, pitch_max - pitch_buffer)
 		rotation.y = initial_rotation.y + -1.0 * scale_to_screen_size * rotation_strength * mouse_delta.x/(2*PI)
 	
-		
+func get_camera_global_position():
+	return $Camera3D.global_position

@@ -1,0 +1,10 @@
+it has just occurred to me that i have chosen the worst of 2 worlds
+
+i chose to axe the ability to focus on a unit and then i made a worse version Y^Y help me
+
+also the unit movement goes haywire if it's behind the camera
+
+here's my proposed fix, which you should re-evaluate before you implement later
+
+1) use the commented out alignment code to make it revert to absolute vector inputs when the units are behind the camera
+2) re-implement locking the camera to units, but just have it follow their position (instead of reparenting, that was stupid)
