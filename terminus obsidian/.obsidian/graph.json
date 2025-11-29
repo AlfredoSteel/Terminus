@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "path:Classes  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Classes/Base  ",
+      "color": {
+        "a": 1,
+        "rgb": 16211938
+      }
+    },
+    {
+      "query": "path:\"Classes/Sub (2)\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5764194
+      }
+    },
+    {
+      "query": "path:\"Classes/Sub (3)\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8832244
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.52916666666667,
+  "lineSizeMultiplier": 3.11145833333333,
+  "collapse-forces": false,
+  "centerStrength": 0,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.8028182466482479,
+  "close": true
+}
