@@ -1,0 +1,1 @@
+Reduces resistance by 1 point for each stack of shred. Resistance cannot be reduced below 1.

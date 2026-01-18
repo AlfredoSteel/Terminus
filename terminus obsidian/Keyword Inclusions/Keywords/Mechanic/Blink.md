@@ -1,0 +1,1 @@
+Teleport, bypassing intervening space.

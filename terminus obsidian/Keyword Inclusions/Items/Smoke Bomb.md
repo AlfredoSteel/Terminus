@@ -1,0 +1,1 @@
+The first time the equipped bot falls under 50% HP this fight, it becomes briefly [[invisible]] and [[blink]]s to furthest location from all enemy bots.

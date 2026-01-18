@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Classes  ",
+  "search": "path:\"Keyword Inclusions\" ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,24 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Classes/Base  ",
+      "query": "path:\"Keyword Inclusions/Artifacts\"  ",
       "color": {
         "a": 1,
-        "rgb": 16211938
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"Classes/Sub (2)\"  ",
+      "query": "path:\"Keyword Inclusions/Items\"  ",
       "color": {
         "a": 1,
-        "rgb": 5764194
+        "rgb": 16636198
       }
     },
     {
-      "query": "path:\"Classes/Sub (3)\"  ",
+      "query": "path:\"Keyword Inclusions/Characters\"  ",
       "color": {
         "a": 1,
-        "rgb": 8832244
+        "rgb": 3462367
+      }
+    },
+    {
+      "query": "path:\"Keyword Inclusions/Keywords/Trigger\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14451427
+      }
+    },
+    {
+      "query": "path:\"Keyword Inclusions/Keywords/Mechanic\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8055358
+      }
+    },
+    {
+      "query": "path:\"Keyword Inclusions/Keywords/Stat Modifier\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 9663309
       }
     }
   ],
@@ -35,10 +56,10 @@
   "nodeSizeMultiplier": 1.52916666666667,
   "lineSizeMultiplier": 3.11145833333333,
   "collapse-forces": false,
-  "centerStrength": 0,
+  "centerStrength": 0.0416666666666667,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.8028182466482479,
-  "close": true
+  "scale": 0.20022583007814013,
+  "close": false
 }

@@ -1,0 +1,1 @@
+This damage is not affected by shields, resistance, or any other effect

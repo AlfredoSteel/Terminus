@@ -1,0 +1,1 @@
+All damage I deal is applied as [[True Damage]]

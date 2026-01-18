@@ -1,0 +1,1 @@
+You may move while attacking

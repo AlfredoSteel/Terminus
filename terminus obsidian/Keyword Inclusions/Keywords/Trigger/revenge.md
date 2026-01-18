@@ -1,0 +1,1 @@
+Triggered when receiving premitigation damage from any source (eg. even if damage is  shielded or reduced to 0)

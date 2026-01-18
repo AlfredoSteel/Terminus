@@ -1,0 +1,1 @@
+an effect that reduces a bot's capabilities

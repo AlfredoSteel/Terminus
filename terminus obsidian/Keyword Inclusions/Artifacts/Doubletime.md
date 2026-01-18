@@ -1,0 +1,1 @@
+Your team's [[tick rate]] rate is doubled

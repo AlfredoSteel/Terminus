@@ -1,0 +1,1 @@
+Gain 20% [[vamp]]. Dealing damage to a target applies 1 stack of  [[Shred]]

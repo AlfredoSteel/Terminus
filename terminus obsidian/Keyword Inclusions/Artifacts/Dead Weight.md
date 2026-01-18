@@ -1,0 +1,1 @@
+All [[debuff]]s applied to enemies are twice as effective (max 100%)

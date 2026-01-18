@@ -1,0 +1,1 @@
+Passive: every second ([[tick rate]]), Sapling gains 1% max HP and [[heal]]s for 2% max HP.

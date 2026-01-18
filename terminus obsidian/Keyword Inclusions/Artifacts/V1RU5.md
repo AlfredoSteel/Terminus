@@ -1,0 +1,1 @@
+[[Takedown]]: [[Heal]] enemy bot to 30% hp. It is part of ally team.

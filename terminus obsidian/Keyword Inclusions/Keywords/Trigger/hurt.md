@@ -1,0 +1,1 @@
+Triggered when current health is reduced

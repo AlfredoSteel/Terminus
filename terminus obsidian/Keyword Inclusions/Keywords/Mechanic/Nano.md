@@ -1,0 +1,1 @@
+Triple stacks of Nano every second [[tick rate]]. When the amount of nano on a target is more than that target’s health * resistance, deal (nano) damage to the target.
